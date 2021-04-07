@@ -2,24 +2,33 @@ body{
     background: skyblue;
     font-family:Arial, Helvetica, sans-serif;
 }
+.assignments{
+    display:flex;
+    flex-wrap:wrap;
+}
 
 .assignment{
 background-color: #65B25C;
     margin: 10px;
-    display: flex;
-    padding:10px;
+    padding:20px 10;
     border-radius:20px;
+    width: 20%;
 }
 
 .assignment img{
     width:200px;
     margin: 15px;
     border: 4px groove #B58C5C;
+    display:block;
+    margin:auto;
 }
 
 h1 {
     color: darkorchid;
     text-align:center;
+}
+h2{
+    text-allign:center;
 }
 a{
     text-decoration: none;
